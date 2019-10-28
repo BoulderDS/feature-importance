@@ -196,18 +196,18 @@ def save_shap_val(file, name, SAVE_DIR, train_data, test_data):
     utils.save_pickle(importance_l, path)
     
 def save_data(SAVE_DIR, train_dev_tokens, test_tokens):
-#     save_svm_coef('svm', 'svm', SAVE_DIR)
-#     save_svm_coef('svm_l1', 'svm_l1', SAVE_DIR)
-#     save_xgb_impt('xgb', 'xgb', SAVE_DIR)
+    save_svm_coef('svm', 'svm', SAVE_DIR)
+    save_svm_coef('svm_l1', 'svm_l1', SAVE_DIR)
+    save_xgb_impt('xgb', 'xgb', SAVE_DIR)
     
-#     save_lime_coef('svm', 'svm', SAVE_DIR, train_dev_tokens, test_tokens)
-#     save_lime_coef('svm_l1', 'svm_l1', SAVE_DIR, train_dev_tokens, test_tokens) 
-#     save_lime_coef('xgb', 'xgb', SAVE_DIR, train_dev_tokens, test_tokens)
-#     save_lime_coef('lstm_att', 'lstm_att', SAVE_DIR, \
-#                    train_dev_tokens, test_tokens, d_file='lstm_att_hp')
+    save_lime_coef('svm', 'svm', SAVE_DIR, train_dev_tokens, test_tokens)
+    save_lime_coef('svm_l1', 'svm_l1', SAVE_DIR, train_dev_tokens, test_tokens) 
+    save_lime_coef('xgb', 'xgb', SAVE_DIR, train_dev_tokens, test_tokens)
+    save_lime_coef('lstm_att', 'lstm_att', SAVE_DIR, \
+                   train_dev_tokens, test_tokens, d_file='lstm_att_hp')
     
-#     save_shap_val('svm', 'svm', SAVE_DIR, train_dev_tokens, test_tokens)
-#     save_shap_val('svm_l1', 'svm_l1', SAVE_DIR, train_dev_tokens, test_tokens)
+    save_shap_val('svm', 'svm', SAVE_DIR, train_dev_tokens, test_tokens)
+    save_shap_val('svm_l1', 'svm_l1', SAVE_DIR, train_dev_tokens, test_tokens)
     save_shap_val('xgb', 'xgb', SAVE_DIR, train_dev_tokens, test_tokens)
     
 
