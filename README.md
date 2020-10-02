@@ -34,3 +34,15 @@ Note: to generate `bert` related feature and its feature importance, it is impor
 1. To generate plots in the paper, refer to interactive notebook `main.ipynb`.
 
 If met with any problems, please send an email to `vivian.lai@colorado.edu` and `jon.z.cai@colorado.edu`.
+
+### 4. Paper and citation
+Paper: https://arxiv.org/abs/1910.08534
+
+```
+@article{lai2019many,
+  title={Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text Classification},
+  author={Lai, Vivian and Cai, Jon Z and Tan, Chenhao},
+  journal={arXiv preprint arXiv:1910.08534},
+  year={2019}
+}
+```
